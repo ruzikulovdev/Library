@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-$74wgdap&oy_szdb0b76$*nj!+wauh@po3s*@++gx$(^^q$k*j
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://lib-rary.up.railway.app']
 
 
 # Application definition
